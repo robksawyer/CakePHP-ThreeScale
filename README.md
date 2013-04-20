@@ -9,6 +9,7 @@ A CakePHP Plugin for interacting with 3scale.net.
 Download the source code from github: https://github.com/robksawyer/CakePHP-ThreeScale.git and place it in the Plugins folder.
 
 If you're using [Composer](http://getcomposer.org), run the following to install dependencies.
+		
 		composer install
 
 Otherwise, you can download the api from https://github.com/3scale/3scale_ws_api_for_php.
