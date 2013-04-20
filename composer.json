@@ -1,0 +1,21 @@
+{
+	"name": "threescale/client",
+	"type": "cakephp-plugin",
+	"description": "Interface to the 3Scale API via a CakePHP plugin.",
+	"keywords": ["cakephp", "threescale", "plugin", "3scale", "api"],
+	"homepage": "https://github.com/robksawyer/CakePHP-ThreeScale",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Rob Sawyer",
+			"homepage": "http://robksawyer.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"tdaws/3scale_ws_api_for_php": "dev-master"
+	},
+	"support": {
+		"source": "https://github.com/robksawyer/CakePHP-ThreeScale"
+	}
+}
