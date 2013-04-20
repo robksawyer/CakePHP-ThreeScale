@@ -1,0 +1,3 @@
+[submodule "Vendor/3scale_ws_api"]
+	path = Vendor/3scale_ws_api
+	url = https://github.com/robksawyer/3scale_ws_api_for_php.git
