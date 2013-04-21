@@ -4,9 +4,7 @@
 */
 	$config = array(
 		'ThreeScale' => array(
-			'provider_key' => THREE_SCALE_PROVIDER_KEY,
-			'app_id' => THREE_SCALE_APP_ID,
-			'app_key' => THREE_SCALE_APP_KEY
+			'provider_key' => THREE_SCALE_PROVIDER_KEY
 		)
 	);
 ?>

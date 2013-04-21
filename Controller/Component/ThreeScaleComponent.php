@@ -9,6 +9,16 @@ Configure::load('ThreeScale.three_scale');
 class ThreeScaleComponent extends Component {
 
 /**
+ * @var app_id The developer's app id
+ */
+	public $app_id = "";
+
+/**
+ * @var app_key The developer's app key
+ */
+	public $app_key = "";
+
+/**
 * Holds an array of valid service "names" and the class that corresponds
 * to each one.
 *
@@ -52,20 +62,22 @@ class ThreeScaleComponent extends Component {
 	}
 
 /**
-* A helper method that reports a single hit
+* A helper method that reports hits
 * @param string app_id The user's app id. The hits will be applied to this account
 * @param int hits The total number of hits to track
 * @return 
 */
-	public function report($app_id, $hits = 1){
+	public function reportHits($app_id = null, $hits = 1){
+		if(empty($app_id)) return false;
 		$client = $this->__createService('ThreeScaleClient');
-		return $client->report(array(
+		$response = $client->report(array(
 			array(
 				'app_id' => $app_id,
 				'timestamp' => strtotime('now'),
-				'usage'	=> array('hits' => $hits)
+				'hits' => $hits
 			)
 		));
+		return $response->isSuccess();
 	}
 
 /**

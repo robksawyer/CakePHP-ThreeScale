@@ -18,8 +18,6 @@ Navigate to the newly created clone and create a bootstrap.php file within Confi
 
 		<?php 
 			define("THREE_SCALE_PROVIDER_KEY","YOUR PROVIDER KEY");
-			define("THREE_SCALE_APP_ID","YOUR APP ID");
-			define("THREE_SCALE_APP_KEY","YOUR APP KEY");
 		?>
 
 
