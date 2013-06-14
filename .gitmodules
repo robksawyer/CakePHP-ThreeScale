@@ -1,3 +1,0 @@
-[submodule "Vendor/tdaws/3scale_ws_api_for_php"]
-	path = Vendor/tdaws/3scale_ws_api_for_php
-	url = git://github.com/3scale/3scale_ws_api_for_php.git
