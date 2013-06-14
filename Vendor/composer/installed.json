@@ -1,0 +1,41 @@
+[
+    {
+        "name": "tdaws/3scale_ws_api_for_php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tdaws/3scale_ws_api_for_php.git",
+            "reference": "35842f7eb1215429ba6271e0a74951110dba14f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tdaws/3scale_ws_api_for_php/zipball/35842f7eb1215429ba6271e0a74951110dba14f1",
+            "reference": "35842f7eb1215429ba6271e0a74951110dba14f1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2013-02-22 19:06:07",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "ThreeScaleClient": "lib/",
+                "ThreeScaleResponse": "lib/",
+                "3ScaleClient": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "3scale integration plugin for PHP applications - with composer.json",
+        "homepage": "https://support.3scale.net/libraries",
+        "keywords": [
+            "3scale",
+            "ThreeScale",
+            "api",
+            "composer",
+            "php"
+        ]
+    }
+]
