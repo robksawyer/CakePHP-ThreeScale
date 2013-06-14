@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ThreeScaleResponse' => $vendorDir . '/tdaws/3scale_ws_api_for_php/lib',
-    'ThreeScaleClient' => $vendorDir . '/tdaws/3scale_ws_api_for_php/lib',
-    '3ScaleClient' => $vendorDir . '/tdaws/3scale_ws_api_for_php/lib',
+    'ThreeScaleResponse' => array($vendorDir . '/tdaws/3scale_ws_api_for_php/lib'),
+    'ThreeScaleClient' => array($vendorDir . '/tdaws/3scale_ws_api_for_php/lib'),
+    '3ScaleClient' => array($vendorDir . '/tdaws/3scale_ws_api_for_php/lib'),
 );
