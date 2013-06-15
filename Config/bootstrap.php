@@ -1,4 +1,4 @@
-<?php
+<?php 
 /**
  * API MANAGEMENT 3SCALE
  * Instructions: Be sure to run ThreeScale => array('bootstrap'=>true) on load of the Plugin
@@ -16,4 +16,5 @@ $threescale = array(
 );
 
 Configure::write('Threescale', $threescale);
+
 ?>
