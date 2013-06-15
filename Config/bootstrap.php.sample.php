@@ -2,10 +2,18 @@
 /**
  * API MANAGEMENT 3SCALE
  * Instructions: Be sure to run ThreeScale => array('bootstrap'=>true) on load of the Plugin
- * APP_ID = CLIENT_ID
- * APP_KEY = CLIENT_SECRET
+ * app_id = client_id
+ * app_key = client_secret
  */
-define("THREE_SCALE_PROVIDER_KEY","SUPER_PRIVATE_PROVIDER_KEY");
-define("THREE_SCALE_APP_ID","TEST_APP_ID");
-define("THREE_SCALE_APP_KEY","TEST_APP_KEY");
+$threescale = array(
+	'Threescale' => array(
+		'provider_key' => getenv('THREE_SCALE_PROVIDER_KEY'),
+		'app_id' => getenv('THREE_SCALE_APP_ID'),
+		'app_key' => getenv('THREE_SCALE_APP_KEY'),
+		'endpoint' => getenv('THREE_SCALE_ENDPOINT'),
+		'account_id' => getenv('THREE_SCALE_ACCOUNT_ID')
+	)
+);
+
+Configure::write('Threescale', $threescale);
 ?>

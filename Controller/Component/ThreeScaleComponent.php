@@ -110,7 +110,7 @@ class ThreeScaleComponent extends Component {
 * @access private
 */
 	private function __createService($class) {
-		return new $class(Configure::read('ThreeScale.provider_key'));
+		return new $class(Configure::read('Threescale.provider_key'));
 	}
 
 }
