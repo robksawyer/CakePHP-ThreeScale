@@ -13,7 +13,7 @@
 	],
 	"require": {
 		"php": ">=5.3.3",
-		"tdaws/3scale_ws_api_for_php": "dev-master"
+		"3scale/3scale_ws_api_for_php": "dev-master"
 	},
 	"support": {
 		"source": "https://github.com/robksawyer/CakePHP-ThreeScale"
